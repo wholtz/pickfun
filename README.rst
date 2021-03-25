@@ -19,7 +19,8 @@ There are two ways to use pickfun.
 
 1. Decorate a function:
 
-.. code:: python
+    .. code:: python
+
         import pickfun
 
         @pickfun.checkpoint
@@ -30,7 +31,8 @@ There are two ways to use pickfun.
 
 2. Call your function from a higher-order function:
 
-.. code:: python
+    .. code:: python
+
         import pickfun
         pickfun.checkpoint(sum)([1, 2])
 
